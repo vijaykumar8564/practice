@@ -1,0 +1,174 @@
+    1  sudo apt update
+    2  git --version
+    3  git status
+    4  mkdir git 
+    5  cd git/
+    6  git init
+    7  touch 1.txt
+    8  vi 2.txt
+    9  git status
+   10  git add .
+   11  git status
+   12  git rm --cached .
+   13  git rm --cached ./
+   14  git rm -r --cached .
+   15  git status
+   16  git add ./
+   17  git status
+   18  git commit --help
+   19  git commit -m "new files added"
+   20  git config --global
+   21  git status
+   22  git --help
+   23  vi 2.txt
+   24  git add ./
+   25  git commit -m "some lines are added"
+   26  git status
+   27  git diff 2.txt
+   28  git diff --help
+   29  git log
+   30  git diff  f72d79a9b0478a7e032883bc182915f89cb9cc5d 8af4d7f0401c9c8bd7954b417a4eb10517600ea4
+   31  git grep 1.txt
+   32  git grep --help
+   33  git grep wertyuio
+   34  git show
+   35  git bisect --help
+   36  git bisect log
+   37  ls -al
+   38  vi 3.txt
+   39  git status
+   40  rm 3.txt
+   41  git status
+   42  vi 3.txt
+   43  git status
+   44  git add ./
+   45  git status
+   46  git restore --staged ./
+   47  git status
+   48  git add ./
+   49  git status
+   50  git commit -m "neew file "
+   51  git status
+   52  git log
+   53  git log --help
+   54  git log _A
+   55  git log -A
+   56  git log
+   57  git --help
+   58  clear
+   59  git config username
+   60  git config username --help
+   61  git config user.name "vijay"
+   62  git config user.email "vijaykumarmekala8564@gmail.com"
+   63  vi 4.txt
+   64  git status
+   65  git add ./
+   66  git status
+   67  git commit -m "new file"
+   68  gir log 
+   69  git log
+   70  history
+   71  git log
+   72  touch new{1..10}.txt
+   73  git status
+   74  git add ./
+   75  git statud
+   76  git status
+   77  git commit -m "some files are added"
+   78  git status
+   79  git log
+   80  git show
+   81  ll
+   82  ls -al
+   83  touch vijay{1..2}
+   84  ll
+   85  vi .gitignore
+   86  git status
+   87  git add ./
+   88  git status
+   89  git commit -m " git ignore files are added"
+   90  git status
+   91  vi .gitignore
+   92  git status
+   93  git add ./
+   94  git commit -m "gitignore file changed"
+   95  git status
+   96  git branch --help
+   97  git branch
+   98  clear
+   99  git branch
+  100  rm -rf *
+  101  ll
+  102  git log
+  103  clear
+  104  ls
+  105  ls -al
+  106  git branch vijay
+  107  git branch
+  108  git checkout vijay
+  109  git branch
+  110  ls -al
+  111  touch vijayfiles{1..3}
+  112  ls
+  113  git add .
+  114  git status
+  115  git commit -m "vijay commits" vijayfiles*
+  116  git log
+  117  ls
+  118  ls -al
+  119  git branch kumar
+  120  git checkout kumar
+  121  git branch
+  122  ll
+  123  touch kumarfiles{1..3}
+  124  git add kumarfiles*
+  125  git commit -m "kumar files"
+  126  git status
+  127  ls
+  128  ll
+  129  clear
+  130  git -b checkout mekala
+  131  git checkout -b mekala
+  132  git branch
+  133  ll
+  134  git status
+  135  git branch
+  136  touch meka{1..3}
+  137  ls
+  138  git add ./
+  139  git commit -m "only two files are added"
+  140  git restore --staged meka3
+  141  git status
+  142  git reset HEAD~
+  143  git status
+  144  git add meka*
+  145  git commit -m "files added meka1 meka2
+  146  git commit -m "files added" meka1 meka2
+  147  ll
+  148  git status
+  149  git checkout -b devops
+  150  touch devops{1..3}
+  151  git add devops1
+  152  git commit -m "devops commit" devops1
+  153  git status
+  154  ll
+  155  git status
+  156  git add devops*
+  157  git status
+  158  git restore --staged devops*
+  159  git status
+  160  git branch -m devops test
+  161  git branch
+  162  ll
+  163  git satus
+  164  git status
+  165  git branch -d kumar
+  166  git branch
+  167  git branch -d test
+  168  git checkout vijay
+  169  git remote add origin https://github.com/vijaykumar8564/practice.git
+  170  git branch
+  171  git push origin vijay
+  172  git push origin master
+  173  history
+  174  history > gitcommands.txt
